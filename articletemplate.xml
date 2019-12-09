@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<g:evaluate object="true" var="jvar_statements">
+
+var stm2m = new GlideRecord('sn_compliance_m2m_policy_policy_statement');
+stm2m.addQuery('document.sys_id',current.sys_id);
+stm2m.orderBy('order');
+stm2m.query();
+var info = [];
+        while(stm2m.next()){
+          getStatement(stm2m.getValue('content'));
+        }
+function getStatement(ps){
+ var polstm = new GlideRecord('sn_compliance_policy_statement');
+ polstm.addActiveQuery();
+ polstm.addQuery('sys_id',ps);
+ polstm.query();
+if(polstm.next()){
+         info.push(polstm.getValue('u_policy_text'));
+         info.push("\n");
+         }  
+}
+info = info.join("\n");
+
+</g:evaluate>
+<p style="font-weight: bold;text-decoration: underline;">${gs.getMessage('Description:')}</p>
+<!-- Populates description and policy text from the Policy-->
+<p>${current.description}</p>
+<p>${current.policy_text}</p>
+<p style="font-weight: bold;text-decoration: underline;">${gs.getMessage('Policy Statement Text:')}</p>
+<g:no_escape>${info}</g:no_escape>
+<!-- <p style="font-weight: bold;text-decoration: underline;">${gs.getMessage('Requirements')}</p> -->
+<!-- <j:while test="${jvar_statements.next()}">
+<ul>
+<li> style="margin-left: 32px">${jvar_statements.getValue('reference')} ${jvar_statements.getValue('u_policy_text')}</li>
+<li> <g2:no_escape>$[stmt.u_policy_text.getDisplayValue()]</g2:no_escape> </li>
+</ul>
+</j:while> -->
+</j:jelly>
