@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2019-05-24 11:32:26">
+<sys_user_group action="INSERT_OR_UPDATE">
+<active>true</active>
+<average_daily_fte/>
+<cost_center display_value=""/>
+<default_assignee display_value=""/>
+<description>Responsible for establishing and maintaining the enterprise vision, strategy, and program to ensure information assets and technologies are adequately protected </description>
+<email>JVB@INRY.com</email>
+<exclude_manager>false</exclude_manager>
+<hourly_rate>0</hourly_rate>
+<include_members>false</include_members>
+<manager display_value="John VanBruggen">076c1bcbdb2332005439d7795e96199b</manager>
+<name>Chief Information Security Officer (CISO)</name>
+<parent display_value=""/>
+<points>0</points>
+<roles/>
+<source/>
+<sys_created_by>benjamin.campbell</sys_created_by>
+<sys_created_on>2019-05-09 16:01:11</sys_created_on>
+<sys_id>de4c5af5db557b406414e5b74b9619ad</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>benjamin.campbell</sys_updated_by>
+<sys_updated_on>2019-05-09 16:02:01</sys_updated_on>
+<type/>
+<vendors/>
+</sys_user_group>
+<sys_user_group action="INSERT_OR_UPDATE">
+<active>true</active>
+<average_daily_fte/>
+<cost_center display_value=""/>
+<default_assignee display_value=""/>
+<description/>
+<email/>
+<exclude_manager>false</exclude_manager>
+<hourly_rate>0</hourly_rate>
+<include_members>false</include_members>
+<manager display_value="Anu Bulusu">cf6c1bcbdb2332005439d7795e961995</manager>
+<name>Governance</name>
+<parent display_value=""/>
+<points>0</points>
+<roles/>
+<source/>
+<sys_created_by>benjamin.campbell</sys_created_by>
+<sys_created_on>2019-05-09 16:02:58</sys_created_on>
+<sys_id>855d9e35db557b406414e5b74b961916</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>benjamin.campbell</sys_updated_by>
+<sys_updated_on>2019-05-09 16:02:58</sys_updated_on>
+<type/>
+<vendors/>
+</sys_user_group>
+<sys_user_group action="INSERT_OR_UPDATE">
+<active>true</active>
+<average_daily_fte/>
+<cost_center display_value=""/>
+<default_assignee display_value=""/>
+<description>Build, buy and operate all the technology. Responsible for responding to all types of Incidents and Changes including Security Incidents. </description>
+<email>IT@INRY.com</email>
+<exclude_manager>false</exclude_manager>
+<hourly_rate>0</hourly_rate>
+<include_members>false</include_members>
+<manager display_value="Bipin Paracha">c36c1bcbdb2332005439d7795e961999</manager>
+<name>Information Technology (IT)</name>
+<parent display_value=""/>
+<points>0</points>
+<roles/>
+<source/>
+<sys_created_by>benjamin.campbell</sys_created_by>
+<sys_created_on>2019-05-09 16:14:08</sys_created_on>
+<sys_id>bcdf96b9db557b406414e5b74b9619aa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>benjamin.campbell</sys_updated_by>
+<sys_updated_on>2019-05-09 16:14:08</sys_updated_on>
+<type/>
+<vendors/>
+</sys_user_group>
+</unload>

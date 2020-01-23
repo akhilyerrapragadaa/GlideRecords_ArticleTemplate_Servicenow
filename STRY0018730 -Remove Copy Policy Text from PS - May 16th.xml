@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-05-28 12:56:36">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="GRC: Policy and Compliance Management">4a3281d053030200d23c9c25911c086f</application>
+<application_name>GRC: Policy and Compliance Management</application_name>
+<application_scope>sn_compliance</application_scope>
+<application_version>7.0.6</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>STRY0018730 -Remove Copy "Policy Text" from PS - May 16th</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>6d65a4ccdbedff406414e5b74b9619aa</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>Akhil.Yerrapragada</sys_created_by>
+<sys_created_on>2019-05-28 12:56:35</sys_created_on>
+<sys_id>22f8e7371bad7b80377c99b4bd4bcb2e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Akhil.Yerrapragada</sys_updated_by>
+<sys_updated_on>2019-05-28 12:56:35</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GRC: Policy and Compliance Management">4a3281d053030200d23c9c25911c086f</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_27aefae9db8e2300b0da5fc74b9619a0</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sn_compliance_policy_statement&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="sn_compliance_policy_statement"&gt;documentISNOTEMPTY^EQ&lt;item endquery="false" field="document" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;(INT) Child "Policy Text" from Policy-PS&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Damini.Teega&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-11-28 10:25:42&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;27aefae9db8e2300b0da5fc74b9619a0&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;(INT) Child "Policy Text" from Policy-PS&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="GRC: Policy and Compliance Management" source="sn_compliance"&gt;4a3281d053030200d23c9c25911c086f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GRC: Policy and Compliance Management"&gt;4a3281d053030200d23c9c25911c086f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_27aefae9db8e2300b0da5fc74b9619a0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Akhil.Yerrapragada&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-05-16 09:40:58&lt;/sys_updated_on&gt;&lt;template&gt;u_policy_textSAMEASdocument.ref_sn_compliance_policy.policy_text^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=27aefae9db8e2300b0da5fc74b9619a0"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1307584161</payload_hash>
+<remote_update_set display_value="STRY0018730 -Remove Copy &quot;Policy Text&quot; from PS - May 16th">22f8e7371bad7b80377c99b4bd4bcb2e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Akhil.Yerrapragada</sys_created_by>
+<sys_created_on>2019-05-28 12:56:35</sys_created_on>
+<sys_id>a6f8e7371bad7b80377c99b4bd4bcb2e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ac00424ea0000001</sys_recorded_at>
+<sys_updated_by>Akhil.Yerrapragada</sys_updated_by>
+<sys_updated_on>2019-05-28 12:56:35</sys_updated_on>
+<table>sn_compliance_policy_statement</table>
+<target_name>(INT) Child "Policy Text" from Policy-PS</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>731981446aa1338095e9d916700d044a</update_guid>
+<update_guid_history>731981446aa1338095e9d916700d044a:-1307584161,5c09c14428a13380ddf6c4be34bea968:-326738964,33d8414426a133804bd22260832eae49:-1307584161,2cc3c03b43ce670045a9ddb32e0ff73a:2127079407,fcde7ee9978e230047b775fa3c08a387:-1536260616,7faefae9458e23003841e6a652cddaba:-1489188136</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GRC: Policy and Compliance Management">4a3281d053030200d23c9c25911c086f</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_cbd2dc38db82e300b0da5fc74b9619bf</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sn_compliance_policy&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="sn_compliance_policy"&gt;policy_textVALCHANGES^EQ&lt;item endquery="false" field="policy_text" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;(INT) Copy "Policy Text" from Policy -PS&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	// Add your code here
+	var gr = new GlideRecord("sn_compliance_policy_statement");
+	gr.addQuery("document", current.sys_id);
+	gr.query();
+	while (gr.next()) {
+		gr.u_policy_text = current.policy_text;
+		gr.update();
+	}
+	current.update();
+	
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;manisha.boddu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-11-25 14:00:46&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cbd2dc38db82e300b0da5fc74b9619bf&lt;/sys_id&gt;&lt;sys_mod_count&gt;25&lt;/sys_mod_count&gt;&lt;sys_name&gt;(INT) Copy "Policy Text" from Policy -PS&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="GRC: Policy and Compliance Management" source="sn_compliance"&gt;4a3281d053030200d23c9c25911c086f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GRC: Policy and Compliance Management"&gt;4a3281d053030200d23c9c25911c086f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_cbd2dc38db82e300b0da5fc74b9619bf&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Akhil.Yerrapragada&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-05-16 07:07:06&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=cbd2dc38db82e300b0da5fc74b9619bf"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-848085690</payload_hash>
+<remote_update_set display_value="STRY0018730 -Remove Copy &quot;Policy Text&quot; from PS - May 16th">22f8e7371bad7b80377c99b4bd4bcb2e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Akhil.Yerrapragada</sys_created_by>
+<sys_created_on>2019-05-28 12:56:35</sys_created_on>
+<sys_id>eef8e7371bad7b80377c99b4bd4bcb2e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16abf7748b00000001</sys_recorded_at>
+<sys_updated_by>Akhil.Yerrapragada</sys_updated_by>
+<sys_updated_on>2019-05-28 12:56:35</sys_updated_on>
+<table>sn_compliance_policy</table>
+<target_name>(INT) Copy "Policy Text" from Policy -PS</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>8ae564ccd1edff40eb396cd5502c4dbb</update_guid>
+<update_guid_history>8ae564ccd1edff40eb396cd5502c4dbb:-848085690,93d52cccb2edff40d50def5279f07948:1224826329,d664e48c9aedff40267677394e1820c9:-848085690,e654a48c5cedff4039c2ec36f93e44da:1224826329,a483244c29edff404077d43c9b9388a9:-1033348790,f9a22c0cc2edff40fda35d979f5e5a9f:-1278484048,a992240c5cedff40e568fda5415cccaa:1298752327,a6a1acc815edff40fcb9b05caedb3c4a:-534646352,a82f3ee9b88e230054f0aa90552492da:-1350032100,67fdbaa98e8e23009194f5df4620c197:-1489188136,14eb7a69b48e2300e14fd7a83cdcafe9:-1350032100,5c3ab629b28e23003f47384d07d256c3:-21996745,44b97aa5128e2300aedf7853fcb02ab4:-1350032100,20097a651b8e230045cf628523b1a10a:-823658948,2e887ea5fc8e23008cd74b9f6e43e8b6:-1350032100,44087a65ed8e2300a33c4ca354cb6948:-823658948,8da7f665638e2300350e61fb0f668132:-186969705,1fe63a65e18e230010e1feffc1cb9afa:-1655189576,5b553a25de8e2300ddd9ee9aaac77cb9:-823658948,a6cf2e212b8e23000a8a9916d4bead3d:-1350032100,b65e2eedb94e23002c13087d72583f1b:-1903454613,e7fda2edc94e2300d3cfcb987b850183:633772855,aa4de6ad204e2300436dcd942bd3c3ad:563422781,f8cc62ad0e4e2300e235fcd26ef7b5f0:-1901948883,ed1c266dd34e230001f0f58baabdbfd5:-831408386,fbf354788a82e300acaf717ae15ea216:-1489188136,4bc31c789e82e3009a30c12f301b2693:-1738737544,702350785682e30062fb01f2def6af61:-215882054</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

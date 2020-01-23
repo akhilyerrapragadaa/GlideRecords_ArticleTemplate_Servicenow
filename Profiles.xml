@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2019-05-24 11:36:43">
+<sn_grc_profile action="INSERT_OR_UPDATE">
+<active>true</active>
+<alm_asset display_value=""/>
+<applies_to name="Chief Information Security Officer (CISO)" table="sys_user_group">de4c5af5db557b406414e5b74b9619ad</applies_to>
+<ast_contract display_value=""/>
+<attestation_frequency>annually</attestation_frequency>
+<cmdb_ci display_value=""/>
+<cmn_location display_value=""/>
+<compliance_score>0</compliance_score>
+<core_company display_value=""/>
+<has_downstream_controls>false</has_downstream_controls>
+<name>Chief Information Security Officer (CISO) </name>
+<owned_by display_value="John VanBruggen">076c1bcbdb2332005439d7795e96199b</owned_by>
+<profile_class display_value=""/>
+<sn_risk_calculated_score display_value=""/>
+<sn_risk_residual_score display_value=""/>
+<sn_risk_score display_value=""/>
+<sys_created_by>Manisha Boddu</sys_created_by>
+<sys_created_on>2019-05-24 11:30:34</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>255e6a62db25f7006414e5b74b9619ba</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manisha Boddu</sys_updated_by>
+<sys_updated_on>2019-05-24 11:30:34</sys_updated_on>
+<table>sys_user_group</table>
+<task display_value=""/>
+</sn_grc_profile>
+<sn_grc_profile action="INSERT_OR_UPDATE">
+<active>true</active>
+<alm_asset display_value=""/>
+<applies_to name="Delivery Assurance" table="sys_user_group">068a7925dbb736001562d7795e9619a1</applies_to>
+<ast_contract display_value=""/>
+<attestation_frequency>annually</attestation_frequency>
+<cmdb_ci display_value=""/>
+<cmn_location display_value=""/>
+<compliance_score>0</compliance_score>
+<core_company display_value=""/>
+<has_downstream_controls>false</has_downstream_controls>
+<name>Delivery Assurance (DA) </name>
+<owned_by display_value="Kamesh Talluri">cf6c1bcbdb2332005439d7795e96199b</owned_by>
+<profile_class display_value=""/>
+<sn_risk_calculated_score display_value=""/>
+<sn_risk_residual_score display_value=""/>
+<sn_risk_score display_value=""/>
+<sys_created_by>Manisha Boddu</sys_created_by>
+<sys_created_on>2019-05-24 11:34:48</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>dfbfe2a2db25f7006414e5b74b961900</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manisha Boddu</sys_updated_by>
+<sys_updated_on>2019-05-24 11:34:48</sys_updated_on>
+<table>sys_user_group</table>
+<task display_value=""/>
+</sn_grc_profile>
+<sn_grc_profile action="INSERT_OR_UPDATE">
+<active>true</active>
+<alm_asset display_value=""/>
+<applies_to name="Finance and Administration (FA)" table="sys_user_group">578d5639db557b406414e5b74b961990</applies_to>
+<ast_contract display_value=""/>
+<attestation_frequency>annually</attestation_frequency>
+<cmdb_ci display_value=""/>
+<cmn_location display_value=""/>
+<compliance_score>0</compliance_score>
+<core_company display_value=""/>
+<has_downstream_controls>false</has_downstream_controls>
+<name>Finance and Administration (FA)</name>
+<owned_by display_value="Sujith KVK">c76c1bcbdb2332005439d7795e9619a1</owned_by>
+<profile_class display_value=""/>
+<sn_risk_calculated_score display_value=""/>
+<sn_risk_residual_score display_value=""/>
+<sn_risk_score display_value=""/>
+<sys_created_by>Manisha Boddu</sys_created_by>
+<sys_created_on>2019-05-24 11:32:57</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>6e4fe6a2db25f7006414e5b74b9619d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manisha Boddu</sys_updated_by>
+<sys_updated_on>2019-05-24 11:32:57</sys_updated_on>
+<table>sys_user_group</table>
+<task display_value=""/>
+</sn_grc_profile>
+<sn_grc_profile action="INSERT_OR_UPDATE">
+<active>true</active>
+<alm_asset display_value=""/>
+<applies_to name="Governance" table="sys_user_group">855d9e35db557b406414e5b74b961916</applies_to>
+<ast_contract display_value=""/>
+<attestation_frequency>annually</attestation_frequency>
+<cmdb_ci display_value=""/>
+<cmn_location display_value=""/>
+<compliance_score>0</compliance_score>
+<core_company display_value=""/>
+<has_downstream_controls>false</has_downstream_controls>
+<name>Governance</name>
+<owned_by display_value="Anu Bulusu">cf6c1bcbdb2332005439d7795e961995</owned_by>
+<profile_class display_value=""/>
+<sn_risk_calculated_score display_value=""/>
+<sn_risk_residual_score display_value=""/>
+<sn_risk_score display_value=""/>
+<sys_created_by>Manisha Boddu</sys_created_by>
+<sys_created_on>2019-05-24 11:31:49</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>a50fe2a2db25f7006414e5b74b9619c8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manisha Boddu</sys_updated_by>
+<sys_updated_on>2019-05-24 11:31:49</sys_updated_on>
+<table>sys_user_group</table>
+<task display_value=""/>
+</sn_grc_profile>
+<sn_grc_profile action="INSERT_OR_UPDATE">
+<active>true</active>
+<alm_asset display_value=""/>
+<applies_to name="Information Technology (IT)" table="sys_user_group">bcdf96b9db557b406414e5b74b9619aa</applies_to>
+<ast_contract display_value=""/>
+<attestation_frequency>annually</attestation_frequency>
+<cmdb_ci display_value=""/>
+<cmn_location display_value=""/>
+<compliance_score>0</compliance_score>
+<core_company display_value=""/>
+<has_downstream_controls>false</has_downstream_controls>
+<name>Information Technology (IT)</name>
+<owned_by display_value="Bipin Paracha">c36c1bcbdb2332005439d7795e961999</owned_by>
+<profile_class display_value=""/>
+<sn_risk_calculated_score display_value=""/>
+<sn_risk_residual_score display_value=""/>
+<sn_risk_score display_value=""/>
+<sys_created_by>Manisha Boddu</sys_created_by>
+<sys_created_on>2019-05-24 11:33:55</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>448fe2a2db25f7006414e5b74b9619be</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manisha Boddu</sys_updated_by>
+<sys_updated_on>2019-05-24 11:33:55</sys_updated_on>
+<table>sys_user_group</table>
+<task display_value=""/>
+</sn_grc_profile>
+</unload>

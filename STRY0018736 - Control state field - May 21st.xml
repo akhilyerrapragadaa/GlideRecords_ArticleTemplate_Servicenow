@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-05-28 13:04:17">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="GRC: Policy and Compliance Management">4a3281d053030200d23c9c25911c086f</application>
+<application_name>GRC: Policy and Compliance Management</application_name>
+<application_scope>sn_compliance</application_scope>
+<application_version>7.0.6</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>STRY0018736 - Control state field - May 21st</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>a41bcaad1b6db380377c99b4bd4bcb2b</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>Akhil.Yerrapragada</sys_created_by>
+<sys_created_on>2019-05-28 13:04:16</sys_created_on>
+<sys_id>8bba6f771bad7b80377c99b4bd4bcb75</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Akhil.Yerrapragada</sys_updated_by>
+<sys_updated_on>2019-05-28 13:04:16</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GRC: Policy and Compliance Management">4a3281d053030200d23c9c25911c086f</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_64cc3af053130200dca62a9ca11c0835</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>false</admin_overrides><advanced>false</advanced><condition table="sn_compliance_control.*">stateINdraft,attest^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description>Allow write for records in sn_compliance_control, for users with role sn_compliance.user when the control is in the Draft state</description><name>sn_compliance_control.*</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-10-22 04:33:54</sys_created_on><sys_id>64cc3af053130200dca62a9ca11c0835</sys_id><sys_mod_count>14</sys_mod_count><sys_name>sn_compliance_control.*</sys_name><sys_package display_value="GRC: Policy and Compliance Management" source="sn_compliance">4a3281d053030200d23c9c25911c086f</sys_package><sys_policy/><sys_scope display_value="GRC: Policy and Compliance Management">4a3281d053030200d23c9c25911c086f</sys_scope><sys_update_name>sys_security_acl_64cc3af053130200dca62a9ca11c0835</sys_update_name><sys_updated_by>Akhil.Yerrapragada</sys_updated_by><sys_updated_on>2019-05-21 14:38:42</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-886269364</payload_hash>
+<remote_update_set display_value="STRY0018736 - Control state field - May 21st">8bba6f771bad7b80377c99b4bd4bcb75</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Akhil.Yerrapragada</sys_created_by>
+<sys_created_on>2019-05-28 13:04:16</sys_created_on>
+<sys_id>0bba6f771bad7b80377c99b4bd4bcb76</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16adad485770000001</sys_recorded_at>
+<sys_updated_by>Akhil.Yerrapragada</sys_updated_by>
+<sys_updated_on>2019-05-28 13:04:16</sys_updated_on>
+<table>sn_compliance_control.*</table>
+<target_name>sn_compliance_control.*</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>4e3dbb618b25f38097d8b8491f7dc92c</update_guid>
+<update_guid_history>4e3dbb618b25f38097d8b8491f7dc92c:-886269364,dc3d37613825f380807260a2bd347fd8:-1006690253,56427725c2e1f380f42c7883906bb4e6:-886269364,4fd07fa144e1f38019e519ffd3ffedd8:210584295,380edfa18aa1f380a9aeae775ad2b83d:-886269364,1bed13e120a1f380d07e112368c94a32:-1006690253,b3eb9361a4a1f380880fb0f680984ccb:1858933326,33eb936158a1f380f83519cd2a7238c9:210584295</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GRC: Policy and Compliance Management">4a3281d053030200d23c9c25911c086f</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_291233251be1f380377c99b4bd4bcb26</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>false</admin_overrides><advanced>false</advanced><condition/><description>Allow write for records in sn_compliance_control, for users with role sn_compliance.user when the control is in the Draft state</description><name>sn_compliance_control</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>Akhil.Yerrapragada</sys_created_by><sys_created_on>2019-05-21 13:50:04</sys_created_on><sys_id>291233251be1f380377c99b4bd4bcb26</sys_id><sys_mod_count>3</sys_mod_count><sys_name>sn_compliance_control</sys_name><sys_package display_value="GRC: Policy and Compliance Management" source="sn_compliance">4a3281d053030200d23c9c25911c086f</sys_package><sys_policy/><sys_scope display_value="GRC: Policy and Compliance Management">4a3281d053030200d23c9c25911c086f</sys_scope><sys_update_name>sys_security_acl_291233251be1f380377c99b4bd4bcb26</sys_update_name><sys_updated_by>Akhil.Yerrapragada</sys_updated_by><sys_updated_on>2019-05-21 14:38:26</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-111275904</payload_hash>
+<remote_update_set display_value="STRY0018736 - Control state field - May 21st">8bba6f771bad7b80377c99b4bd4bcb75</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Akhil.Yerrapragada</sys_created_by>
+<sys_created_on>2019-05-28 13:04:16</sys_created_on>
+<sys_id>47ba6f771bad7b80377c99b4bd4bcb76</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16adad447590000001</sys_recorded_at>
+<sys_updated_by>Akhil.Yerrapragada</sys_updated_by>
+<sys_updated_on>2019-05-28 13:04:16</sys_updated_on>
+<table>sn_compliance_control</table>
+<target_name>sn_compliance_control</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>022d7b615025f3807ec0cf279634a059</update_guid>
+<update_guid_history>022d7b615025f3807ec0cf279634a059:-111275904,542df761be25f3803cdd181f7c20afe7:1390046695,b233776523e1f3806dd7b2c0d8be6e55:-111275904,2912f32579e1f380cf0cafb48db1df14:210584295</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GRC: Policy and Compliance Management">4a3281d053030200d23c9c25911c086f</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_override_7fdd3ef053130200dca62a9ca11c085f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override"><sys_dictionary_override action="INSERT_OR_UPDATE"><attributes/><attributes_override>false</attributes_override><base_table>sn_grc_item</base_table><calculation/><calculation_override>false</calculation_override><default_value/><default_value_override>false</default_value_override><dependent/><dependent_override>false</dependent_override><display_override>false</display_override><element>state</element><mandatory>false</mandatory><mandatory_override>false</mandatory_override><name>sn_compliance_control</name><read_only>true</read_only><read_only_override>false</read_only_override><reference_qual/><reference_qual_override>false</reference_qual_override><sys_class_name>sys_dictionary_override</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-10-22 04:38:24</sys_created_on><sys_id>7fdd3ef053130200dca62a9ca11c085f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>state</sys_name><sys_package display_value="GRC: Policy and Compliance Management" source="sn_compliance">4a3281d053030200d23c9c25911c086f</sys_package><sys_policy/><sys_scope display_value="GRC: Policy and Compliance Management">4a3281d053030200d23c9c25911c086f</sys_scope><sys_update_name>sys_dictionary_override_7fdd3ef053130200dca62a9ca11c085f</sys_update_name><sys_updated_by>Akhil.Yerrapragada</sys_updated_by><sys_updated_on>2019-05-21 09:49:09</sys_updated_on></sys_dictionary_override></record_update>]]></payload>
+<payload_hash>-1135197350</payload_hash>
+<remote_update_set display_value="STRY0018736 - Control state field - May 21st">8bba6f771bad7b80377c99b4bd4bcb75</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Akhil.Yerrapragada</sys_created_by>
+<sys_created_on>2019-05-28 13:04:16</sys_created_on>
+<sys_id>83ba6f771bad7b80377c99b4bd4bcb76</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ad9cb70c20000001</sys_recorded_at>
+<sys_updated_by>Akhil.Yerrapragada</sys_updated_by>
+<sys_updated_on>2019-05-28 13:04:16</sys_updated_on>
+<table>sn_compliance_control</table>
+<target_name>state</target_name>
+<type>Dictionary Entry Override</type>
+<update_domain>global</update_domain>
+<update_guid>70fa36253621f3807ae4c7b191e8cf72</update_guid>
+<update_guid_history>70fa36253621f3807ae4c7b191e8cf72:-1135197350,e0fa36254621f3809a5a4e237a9dcd6f:-1136175857</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GRC: Policy and Compliance Management">4a3281d053030200d23c9c25911c086f</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_661776611b21f380377c99b4bd4bcb10</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>false</admin_overrides><advanced>false</advanced><condition/><description>State should be editable by compliance manager only</description><name>sn_compliance_control.state</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>Akhil.Yerrapragada</sys_created_by><sys_created_on>2019-05-21 09:36:04</sys_created_on><sys_id>661776611b21f380377c99b4bd4bcb10</sys_id><sys_mod_count>7</sys_mod_count><sys_name>sn_compliance_control.state</sys_name><sys_package display_value="GRC: Policy and Compliance Management" source="sn_compliance">4a3281d053030200d23c9c25911c086f</sys_package><sys_policy/><sys_scope display_value="GRC: Policy and Compliance Management">4a3281d053030200d23c9c25911c086f</sys_scope><sys_update_name>sys_security_acl_661776611b21f380377c99b4bd4bcb10</sys_update_name><sys_updated_by>Akhil.Yerrapragada</sys_updated_by><sys_updated_on>2019-05-21 14:39:07</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1710529128</payload_hash>
+<remote_update_set display_value="STRY0018736 - Control state field - May 21st">8bba6f771bad7b80377c99b4bd4bcb75</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Akhil.Yerrapragada</sys_created_by>
+<sys_created_on>2019-05-28 13:04:16</sys_created_on>
+<sys_id>cbba6f771bad7b80377c99b4bd4bcb76</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16adad4e8460000001</sys_recorded_at>
+<sys_updated_by>Akhil.Yerrapragada</sys_updated_by>
+<sys_updated_on>2019-05-28 13:04:16</sys_updated_on>
+<table>sn_compliance_control.state</table>
+<target_name>sn_compliance_control.state</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>cc5dbb61db25f3804b658a87e44b0a39</update_guid>
+<update_guid_history>cc5dbb61db25f3804b658a87e44b0a39:-1710529128,ea4df3614425f380f64620538766877d:1319533311,4ebbcb250a61f38093b8f47d27d741f5:-1710529128,fc9b8725ea61f380256c3794a1158f33:1319533311,fd1cb265c421f38012bc9fa24d93163e:-1710529128,9cab72655821f380ca58dd6008677066:-2003386425,2738fe217b21f3806bd8960a8d0490cd:-1710529128,34f7fe619f21f380ae41fc581fc2d4f4:1862400136</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GRC: Policy and Compliance Management">4a3281d053030200d23c9c25911c086f</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_bdc68f84c31302004e44dccdf3d3ae99</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Policy and Compliance">e242ce602f0302007eaf77cfb18c9574</application><assessment/><content_page/><device_type/><filter table="sn_compliance_control">state!=retired^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="!=" or="false" value="retired"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Policies</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>sn_compliance_control</name><order>320</order><override_menu_roles>true</override_menu_roles><query/><report/><roles>sn_grc.user,sn_compliance.user</roles><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-10-19 21:21:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bdc68f84c31302004e44dccdf3d3ae99</sys_id><sys_mod_count>9</sys_mod_count><sys_name>All Controls</sys_name><sys_overrides/><sys_package display_value="GRC: Policy and Compliance Management" source="sn_compliance">4a3281d053030200d23c9c25911c086f</sys_package><sys_policy/><sys_scope display_value="GRC: Policy and Compliance Management">4a3281d053030200d23c9c25911c086f</sys_scope><sys_update_name>sys_app_module_bdc68f84c31302004e44dccdf3d3ae99</sys_update_name><sys_updated_by>Akhil.Yerrapragada</sys_updated_by><sys_updated_on>2019-05-21 14:42:31</sys_updated_on><timeline_page/><title>All Controls</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-1621243539</payload_hash>
+<remote_update_set display_value="STRY0018736 - Control state field - May 21st">8bba6f771bad7b80377c99b4bd4bcb75</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Akhil.Yerrapragada</sys_created_by>
+<sys_created_on>2019-05-28 13:04:16</sys_created_on>
+<sys_id>cfba6f771bad7b80377c99b4bd4bcb75</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16adad8067b0000001</sys_recorded_at>
+<sys_updated_by>Akhil.Yerrapragada</sys_updated_by>
+<sys_updated_on>2019-05-28 13:04:16</sys_updated_on>
+<table>sn_compliance_control</table>
+<target_name>All Controls</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>821eff61f325f38048b7b2d70e73fac7</update_guid>
+<update_guid_history>821eff61f325f38048b7b2d70e73fac7:-1621243539,e10e37a18c25f38026eb988c03c414e6:24362772,4bd3d323974e670059abcec659ad1f5e:-81100841,86949909857063004a33365e0726e6ff:-2129745256,4e949909cc706300053f7dc10b3822fd:25457542,572e3129abca230072021830e2a66a07:25457542,429e3f2b5322a380c49312149951f2b7:25457542</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

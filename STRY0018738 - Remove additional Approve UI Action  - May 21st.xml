@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-05-28 13:09:16">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>STRY0018738 - Remove additional "Approve" UI Action  - May 21st</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>693baee11bedb380377c99b4bd4bcb2a</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>Akhil.Yerrapragada</sys_created_by>
+<sys_created_on>2019-05-28 13:09:16</sys_created_on>
+<sys_id>84ebebb71bad7b80377c99b4bd4bcbed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Akhil.Yerrapragada</sys_updated_by>
+<sys_updated_on>2019-05-28 13:09:16</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_82183da3c3511200f7d1ca3adfba8f21</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;approve&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;current.state == 'requested' &amp;amp;&amp;amp; current.source_table != 'sn_compliance_policy'&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;name&gt;Approve&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[current.state='approved';
+current.update();
+new ApprovalUserFeedback().approved(current);]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-02-06 22:42:19&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;82183da3c3511200f7d1ca3adfba8f21&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;Approve&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Service Catalog Platform" source="com.glideapp.servicecatalog.platform"&gt;e9281c27dbab32008252534e5e9619f2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_82183da3c3511200f7d1ca3adfba8f21&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Akhil.Yerrapragada&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-05-21 08:48:20&lt;/sys_updated_on&gt;&lt;table&gt;sysapproval_approver&lt;/table&gt;&lt;ui11_compatible&gt;false&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2043196098</payload_hash>
+<remote_update_set display_value="STRY0018738 - Remove additional &quot;Approve&quot; UI Action  - May 21st">84ebebb71bad7b80377c99b4bd4bcbed</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Akhil.Yerrapragada</sys_created_by>
+<sys_created_on>2019-05-28 13:09:16</sys_created_on>
+<sys_id>c8ebebb71bad7b80377c99b4bd4bcbed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ad993c17f0000001</sys_recorded_at>
+<sys_updated_by>Akhil.Yerrapragada</sys_updated_by>
+<sys_updated_on>2019-05-28 13:09:16</sys_updated_on>
+<table>sysapproval_approver</table>
+<target_name>Approve</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>f50d6629f2edb380118cc66b9fd479a7</update_guid>
+<update_guid_history>f50d6629f2edb380118cc66b9fd479a7:2043196098,98998930794903006a54356580c3652b:69323544,98998930794903006a54356580c3652b:69323544,98998930794903006a54356580c3652b:69323544,c75c183404c50300067327786393692b:1849427006,763412ff50340b005e4b1962bb10183a:-1596943277,a2e356ff08340b00a45c94c3df96b756:174906800,49535ebf14340b001b651401e596e954:-1313253253,e1131ebf9f340b003f17f2c22816142f:-255028079,5ca252bfe5340b003e99f199b6a4d5a6:1193938405,d9721e7f58340b00fbb5a25dba1b4c07:487469177,5d029a7f16340b00921b47a1d431eb99:-1218911182,4b71d67fd2340b00cb93bad61a2fc7db:-2134399356,c331567f6e340b00c5e725f867887584:238664312,0411927f88340b0054e171a62ad141c6:552938895,c2e0563f43340b00c6cc9ea2b5e32698:-1313253253,55805efb0c340b00607f9fe1561ed2d8:-935735362,3afe4efbf8340b00c9aeac771061d468:347984567,d98e86fb31340b00a79633c47539d7b2:480751970,fbb4819d8330c3005084abd908c0a304:-935735362,5224819d0730c3000de937cca252192b:1155832864,ecb3855d7c30c3002f24d745d9bf0056:-2048567424,ed2438d15b30c3006a81d811ffc1a59a:-1440133940,135fe0dd5bfc83002b548021dc66118d:69323544,4a5fe4ddfbfc8300d8178a1480916191:-1846171803,a2ae689db2fc83006d95874c92f55324:69323544,e6db68d968fc8300ab83d6b226f18d5d:316854964,d966c4953078830050f5b6a8b3e5c3c6:1173815230,c3cc440172b08300336f64e8c80a19d3:316854964,e1cc4ccd07708300dd0d721f05468f76:-875302892,8578484d9a7083009cb8a84a120b97b1:316854964,8c78484d93708300b082005603536781:-875302892,0838404d9270830020ce64d1ff6c454d:316854964,4438404d2c70830074a83c1c6d49f34c:69323544,2c588fad0730838096a305d8718c9e87:69323544</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

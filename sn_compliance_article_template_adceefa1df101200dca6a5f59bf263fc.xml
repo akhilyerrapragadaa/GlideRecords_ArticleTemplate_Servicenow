@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2019-05-17 10:37:31">
+<sn_compliance_article_template action="INSERT_OR_UPDATE">
+<html/>
+<is_default>true</is_default>
+<name> Article Template</name>
+<script/>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2015-12-13 09:10:47</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>adceefa1df101200dca6a5f59bf263fc</sys_id>
+<sys_mod_count>78</sys_mod_count>
+<sys_updated_by>Akhil.Yerrapragada</sys_updated_by>
+<sys_updated_on>2019-05-17 10:28:46</sys_updated_on>
+<type>xml</type>
+<xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g:evaluate object="true" var="jvar_statements">
+		<!-- var stmt = new GlideRecord('sn_compliance_policy_statement');
+		var qr = stmt.addJoinQuery('sn_compliance_m2m_policy_policy_statement', 'sys_id', 'content');
+		qr.addCondition('document', current.sys_id + '');
+		qr.orderBy('order');
+		stmt.query();
+	    stmt; -->
+		var stm2m = new GlideRecord('sn_compliance_m2m_policy_policy_statement');
+		stm2m.addQuery('document', current.sys_id);
+		stm2m.query();
+		var maps = [];
+        while(stm2m.next()){
+        maps.push(stm2m.getValue('content'));
+        }
+		var polstm = new GlideRecord('sn_compliance_policy_statement');
+        polstm.addEncodedQuery('sys_idIN' + maps.join(','));
+		polstm.addQuery('active',true);
+		polstm.orderBy('sys_created_on');
+		polstm.query();
+		var info = [];
+        while(polstm.next()){
+		info.push(polstm.getValue('u_policy_text'));
+	    info.push("\b"); 
+		}  
+		info = info.join("\n"); 
+		
+	</g:evaluate>
+	<p style="font-weight: bold;text-decoration: underline;">${gs.getMessage('Description:')}</p>
+	<p>${current.description}</p>
+	<p style="font-weight: bold;text-decoration: underline;">${gs.getMessage('Policy Statement Text:')}</p>
+	<g:no_escape>${info}</g:no_escape>
+<!-- 	<p style="font-weight: bold;text-decoration: underline;">${gs.getMessage('Requirements')}</p> -->
+	<!-- <j:while test="${jvar_statements.next()}">
+		<ul>
+			<li> style="margin-left: 32px">${jvar_statements.getValue('reference')} ${jvar_statements.getValue('u_policy_text')}</li>
+			<li> <g2:no_escape>$[stmt.u_policy_text.getDisplayValue()]</g2:no_escape> </li>
+		</ul>
+	</j:while> -->
+</j:jelly>]]></xml>
+</sn_compliance_article_template>
+</unload>

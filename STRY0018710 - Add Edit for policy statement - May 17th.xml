@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-05-28 13:01:50">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="GRC: Policy and Compliance Management">4a3281d053030200d23c9c25911c086f</application>
+<application_name>GRC: Policy and Compliance Management</application_name>
+<application_scope>sn_compliance</application_scope>
+<application_version>7.0.6</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>STRY0018710 - Add Edit for policy statement - May 17th</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>a5d182d41b25ff40377c99b4bd4bcb78</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>Akhil.Yerrapragada</sys_created_by>
+<sys_created_on>2019-05-28 13:01:49</sys_created_on>
+<sys_id>172aaf771bad7b80377c99b4bd4bcb92</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Akhil.Yerrapragada</sys_updated_by>
+<sys_updated_on>2019-05-28 13:01:49</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GRC: Policy and Compliance Management">4a3281d053030200d23c9c25911c086f</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_control_4db31517e7700300dd926217c2f6a983</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_list_control"&gt;&lt;sys_ui_list_control action="INSERT_OR_UPDATE"&gt;&lt;columns_condition/&gt;&lt;disable_listv3&gt;true&lt;/disable_listv3&gt;&lt;edit_condition&gt;&lt;![CDATA[answer = !((new ComplianceUtils().isReviewer(parent,gs.getUser()) &amp;&amp; parent.state == 'review') || parent.state == 'draft');]]&gt;&lt;/edit_condition&gt;&lt;edit_default_filter/&gt;&lt;edit_roles/&gt;&lt;empty_condition/&gt;&lt;filter_condition/&gt;&lt;filter_roles/&gt;&lt;hierarchical_lists&gt;false&lt;/hierarchical_lists&gt;&lt;label/&gt;&lt;link_condition/&gt;&lt;link_roles/&gt;&lt;list_edit_insert_row&gt;false&lt;/list_edit_insert_row&gt;&lt;list_edit_ref_qual_tag/&gt;&lt;list_edit_type/&gt;&lt;mode&gt;grid&lt;/mode&gt;&lt;name&gt;sn_compliance_policy&lt;/name&gt;&lt;new_condition&gt;&lt;![CDATA[answer = !((new ComplianceUtils().isReviewer(parent,gs.getUser()) &amp;&amp; parent.state == 'review') || parent.state == 'draft');]]&gt;&lt;/new_condition&gt;&lt;new_roles&gt;sn_compliance.user&lt;/new_roles&gt;&lt;omit_columns_if_empty&gt;false&lt;/omit_columns_if_empty&gt;&lt;omit_drilldown_link&gt;false&lt;/omit_drilldown_link&gt;&lt;omit_edit_button&gt;false&lt;/omit_edit_button&gt;&lt;omit_filters&gt;false&lt;/omit_filters&gt;&lt;omit_if_empty&gt;false&lt;/omit_if_empty&gt;&lt;omit_links&gt;false&lt;/omit_links&gt;&lt;omit_new_button&gt;false&lt;/omit_new_button&gt;&lt;related_list&gt;sn_compliance_m2m_policy_policy_statement.document&lt;/related_list&gt;&lt;search_method&gt;keywords&lt;/search_method&gt;&lt;sys_class_name&gt;sys_ui_list_control&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-08-30 17:27:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4db31517e7700300dd926217c2f6a983&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;sn_compliance_policy&lt;/sys_name&gt;&lt;sys_overrides display_value=""&gt;global&lt;/sys_overrides&gt;&lt;sys_package display_value="GRC: Policy and Compliance Management" source="sn_compliance"&gt;4a3281d053030200d23c9c25911c086f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GRC: Policy and Compliance Management"&gt;4a3281d053030200d23c9c25911c086f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_list_control_4db31517e7700300dd926217c2f6a983&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Akhil.Yerrapragada&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-05-17 08:29:24&lt;/sys_updated_on&gt;&lt;/sys_ui_list_control&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1947781279</payload_hash>
+<remote_update_set display_value="STRY0018710 - Add Edit for policy statement - May 17th">172aaf771bad7b80377c99b4bd4bcb92</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Akhil.Yerrapragada</sys_created_by>
+<sys_created_on>2019-05-28 13:01:49</sys_created_on>
+<sys_id>5b2aaf771bad7b80377c99b4bd4bcb92</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ac4e8fb370000001</sys_recorded_at>
+<sys_updated_by>Akhil.Yerrapragada</sys_updated_by>
+<sys_updated_on>2019-05-28 13:01:49</sys_updated_on>
+<table>sn_compliance_policy</table>
+<target_name>sn_compliance_policy</target_name>
+<type>List Control</type>
+<update_domain>global</update_domain>
+<update_guid>595242d4f025ff40535aa261276bf45e</update_guid>
+<update_guid_history>595242d4f025ff40535aa261276bf45e:-1947781279,1b43c8f7e4ce6700d555eb9169670053:-1772693211,12103cc90a0ee3009b830767b4462a54:1047440932,d490d4b43182e300da33d682f96fab20:-1949835372,4280d8b46f82e300f418aaba3cc359f5:628606822,307e44746f82e30028ff73846c399374:-1949835372,ca4ecc349382e3002a1ce937d1de80ef:628606822,fefd8c344a82e300ff4ed00fce98bd34:-1949835372,85bcc0f00182e300a006001be974d08c:-2134808697,c6ac4cf0b682e30057ae065808cce6a5:990425113,8eac4cf08082e300d1d150a1bcb2c3a3:-2134808697,06ef71a92bca2300708957e1e637bb83:-2134808697,c29e3f2bc722a380f1ba9caf9f46a79d:-2134808697</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
